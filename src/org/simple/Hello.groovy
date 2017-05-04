@@ -2,7 +2,7 @@
 package org.simple;
 
 def sayHi(String name){
-    echo ("Hello from sayhi function")
+    echo ("Hello from sayhi function" + name)
 }
 
 return this;

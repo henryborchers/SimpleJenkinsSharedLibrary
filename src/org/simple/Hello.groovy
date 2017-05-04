@@ -3,7 +3,7 @@
 package org.simple;
 
 def sayHi(name){
-    print("Hello " + name)
+    echo "Hello " + name
 }
 
 return this;

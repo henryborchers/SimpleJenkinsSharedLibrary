@@ -1,9 +1,8 @@
 #!/usr/bin/groovy
-
 package org.simple;
 
-def sayHi(name){
-    echo "Hello " + name
+def sayHi(String name){
+    echo ("Hello from sayhi function")
 }
 
 return this;

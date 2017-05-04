@@ -1,4 +1,9 @@
+#!/usr/bin/groovy
+
+package org.simple;
+
 def sayHi(name){
     print("Hello " + name)
 }
-print("I'm loaded")
+
+return this;
